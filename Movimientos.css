@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+
+
+header{
+    display: flex;
+    background-color: rgb(142, 63, 252);
+    height: 80px;
+    background: hsla(265, 97%, 62%, 1);
+    background: linear-gradient(90deg, hsla(265, 97%, 62%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(265, 97%, 62%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+    border-bottom: 2px solid black;
+}
+
+header img{
+    display: flex;
+    margin: auto 130px;
+    height: 40px;
+    width: 150px;
+    
+}
